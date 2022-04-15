@@ -1,0 +1,14 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  Memory.cpp
+E:\external\external\external\myexternal\Memory\Memory.cpp(46,32): warning C4311: 'tür dönüştürme': işaretçi kesilmesi: 'HMODULE' - 'DWORD'
+E:\external\external\external\myexternal\Memory\Memory.cpp(46,32): warning C4302: 'tür dönüştürme': 'HMODULE' iken 'DWORD' olarak kesildi
+E:\external\external\external\myexternal\Memory\Memory.cpp(56,40): warning C4312: 'tür dönüştürme': 'DWORD' öğesinden daha büyük boyutlu 'BYTE *' öğesine dönüştürme
+  Kod Üretiliyor...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: çözümlenmemiş dış sembol main için "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) işlevinde başvuruldu
+E:\external\external\x64\Debug\external.exe : fatal error LNK1120: 1 çözümlenmemiş dışlar
